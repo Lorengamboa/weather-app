@@ -32,12 +32,7 @@ export default class App extends Component {
 			pressure: null,
 			humidity: null,
 			w_speed: '',
-			w_deg: ''
-		};
-	}
-
-	getInitialState() {
-		return {
+			w_deg: '',
 			loading: true,
 		};
 	}
