@@ -7,22 +7,21 @@
 
 import React, { Component } from 'react';
 import {
-    View,
-    ActivityIndicator
+	View
 } from 'react-native';
-import { Text } from 'react-native-elements'
+import { Text } from 'react-native-elements';
 import styles from './style';
 
 export default class Slide3 extends Component {
-    render() {
-        const { error, pressure, humidity } = this.props.data;
+	render() {
+		const { error, pressure, humidity } = this.props.data;
 
-        return (
-            <View style={styles.slide3}  >
-                <Text h1> {pressure}</Text>
-                <Text h1> {humidity}</Text>
-                {error ? <Text>Error: {error}</Text> : null}
-            </View>
-        )
-    }
+		return (
+			<View style={styles.slide3}  >
+				<Text h1> {pressure}</Text>
+				<Text h1> {humidity}</Text>
+				{error ? <Text>Error: {error}</Text> : null}
+			</View>
+		);
+	}
 }

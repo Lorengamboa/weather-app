@@ -7,8 +7,8 @@ import { CELSIUS_IN_KELVIN } from '../config/constants';
  * @returns {nummber} result of the conversion
  */
 export const kelvinToCelsius = (k) => {
-    let result = 0;
-    result =  Math.round(k - CELSIUS_IN_KELVIN);
+	let result = 0;
+	result =  Math.round(k - CELSIUS_IN_KELVIN);
 
-    return result;
-}
+	return result;
+};
