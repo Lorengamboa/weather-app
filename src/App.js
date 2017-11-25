@@ -89,7 +89,7 @@ export default class App extends Component {
 
     /**
     * Paints the background color relaying 
-    * on your the temperature
+    * on your temperature
     */
 	_paintBackgroundcolor() {
 		let desc = this.state.description;
